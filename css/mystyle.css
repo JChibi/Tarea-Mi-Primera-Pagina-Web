@@ -1,0 +1,54 @@
+html{
+	font-size: 62.5%;
+	box-sizing: border-box;
+	scroll-snap-type: y mandatory;
+}
+
+.servicios,
+.navegacion-principal,
+.formulario{
+	
+	
+	scroll-snap-stop: always;
+}
+
+body{
+	font-size: 16px;
+	font-family: 'krub', sans-serif;
+	background-image: linear-gradient(to top, var(var(--grisClaro) 0%, var(--blanco) 100% ));
+}
+
+.contenedor{
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+.boton{
+	background-color: green;
+	color:  black;
+	padding: 1rem 3rem;
+	margin-top: 3rem;
+	font-size: 2rem;
+	text-decoration: noen;
+	text-transform:  uppercase;
+	font-weight: bold;
+	border-radius: .3rem;
+	width: 90%;
+	text-align: center;
+	border: none;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+	text-align: center;
+  }
+
+ h2 {
+	font-size: 2em;
+	margin: 0.67em 0;
+	text-align: center;
+  }
+  
+
+  
